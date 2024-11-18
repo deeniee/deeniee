@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            [disabled] {
+                background-color: red;
+            }
+            [placeholder="이름"]{
+                background-color: orange;
+            }
+            input:not([placeholder]){
+                background-color: blue;
+            }
+           
+            h3:hover{
+                color: yellow;
+                background-color: black;
+            }
+            textarea{
+                width:50%;
+            }
+            textarea:focus{
+                background-color: pink;
+                width:50%;
+            }
+            input#red:checked + label{
+                background-color: red;
+            }
+            input#blue:checked + label{
+                background-color: blue;
+            }
+            button:active{
+                color:white; 
+                background-color: gray;        
+            }
+            button{
+                margin-left: 150px;
+            }
+
+            input#cb2{
+                width:20px; height:20px
+            }
+            input#cb3{
+                width:40px; height:40px
+            }
+            input#cb4{
+                width:60px; height:60px
+            }
+        </style>
+</head>
+    <body>
+        <input type="text" placeholder="이름"/>
+        <input type="password" value="pw"/>
+        <input type="text" value="000-0000-0000"/>
+        <input type="text" value="핸드폰"/>
+        <input type="text" placeholder="주민번호" disabled/>
+        <hr>
+        <h3>건의 사항 작성</h3>
+        <textarea>자유롭게 작성해주세요.</textarea><br>
+        <input id="red" type="checkbox"/><label for="red">빨강</label>
+        <input id="blue" type="checkbox"/><label for="blue">파랑</label><br>
+        <button>제출</button>
+        <hr>
+        <div class="container">
+            <input type="checkbox" id="cb1"><label for="cb1"></label>
+            <input type="checkbox" id="cb2"><label for="cb2"></label>
+            <input type="checkbox" id="cb3"><label for="cb3"></label>
+            <input type="checkbox" id="cb4"><label for="cb4"></label>
+        </div>
+        
+        <hr>
+
+        
+    </body>
+</html>

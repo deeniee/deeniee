@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h1:hover{
+                color:red;
+            }
+            a:active{
+                background:blue;
+            }
+            input:focus{
+                background:orange;
+            }
+            .fruits span:first-child{
+                color:red
+            }
+            .fruits p:last-child{
+                color:purple
+            }
+            .fruits *:nth-child(2){
+                color:greenyellow
+            }
+            .fruits *:nth-child(3n){
+                color:gold
+            }
+            .fruits *:not(span){
+                color:pink;
+                font-weight:bold;
+                font-size:30px;
+            }
+        </style>
+        <body>
+            <h1>가상클래스 선택자</h1><br>
+            <a href="https://naver.com">NAVER</a><br>
+            <input type="text" id="txt" value="button"><br>
+            <hr>
+            <div class="fruits">
+                <span>strawberry</span>
+                <span>watermelon</span>
+                <p>mango</p>
+                <h3>apple</h3>
+                <span>kiwi</span>
+                <p>durian</p>
+                <p>tomato</p>
+                <span>pineapple</span>
+                <p>grape</p>
+                <p>melon</p>
+            </div>
+        </body>

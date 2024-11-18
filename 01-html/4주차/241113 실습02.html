@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>설문조사</h3>
+        이름<input type="text"><br>
+        이메일<input type="text" value="love@example.com"><br>
+        <br>
+        <h4>나이</h4>
+        <input type="radio">10대
+        <input type="radio">20대
+        <input type="radio">30대
+        <input type="radio">40대
+        <input type="radio">50대
+        <input type="radio">60대 이상
+        <h4>원하는 강의(복수응답가능합니다.)</h4>
+        <input type="checkbox">html
+        <input type="checkbox">javascript
+        <input type="checkbox">css<br>
+        <input type="text" value="하고 싶은 말을 써주세요:)">
+        <button>제출</button>
+        <br>
+        <hr>
+<!--강사님이랑 실습하며 수정한 버젼-->
+        <h3>설문조사</h3>
+        <label>이름</label><input type="text"><br>
+        <label>이메일</label><input type="email" placeholder="love@example.com"><br>
+        <h4>나이</h4>
+        <input type="radio" name="age"><label>10대</label>
+        <input type="radio" name="age"><label>20대</label>
+        <input type="radio" name="age"><label>30대</label>
+        <input type="radio" name="age"><label>40대</label>
+        <input type="radio" name="age"><label>50대</label>
+        <input type="radio" name="age"><label>60대 이상</label>
+<!--name은 라디오에게 소속을 부여하여 여러 라디오를 한 소속으로 만들어줌-->
+        <h4>원하는 강의(복수응답가능합니다.)</h4>
+        <input type="checkbox">html
+        <input type="checkbox">javascript
+        <input type="checkbox">css<br>
+        <textarea placeholder="하고 싶은 말을 써주세요:)"></textarea>
+        <button>제출</button>
+    </body>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            p.lion{
+                background-color:red;
+            } 
+            ul .lion{
+                background-color:greenyellow;
+            } 
+            #tiger{
+                background-color:yellow;
+            } 
+            body .lion{
+                color:sienna;
+            }
+            div .lion {
+                font-weight:bold;
+            }
+            #tiger + li{
+                background-color:skyblue;
+            } 
+            li.lion ~ li{
+                background-color:orange ;
+            }
+            a:hover{
+                color:red;
+            }
+            li:hover{
+                color:silver
+            }
+            #btn:active{
+                color:orange
+            }
+            input:focus{
+                background-color: green;
+            }
+    </style>
+    </head>
+    <body>
+        <h1>복합선택자 사용 연습</h1>
+        <p>동물원에 왔어요</p>
+        <div class="zoo">
+            <ul>
+                <span>여긴 사파리!</span>
+                <li>곰</li>
+                <li id="tiger">호랑이</li>
+                <li>팬더</li>
+                <span class="lion">사자1</span>
+                <li class="lion">사자2</li>
+                <li>사육사 allie</li>
+                <li>사육사 진형</li>
+            </ul>
+            <span class="lion">사파리 밖의 사자</span>
+        </div>
+            <p class="lion">야생의 사자</p>
+
+        <hr>
+
+
+        <a href="https://naver.com">NAVER</a><br>
+        <input id="btn" type="button" value=액티브테스트버튼><br>
+        <input id="txt" type="text" value=포커스테스트버튼><br>
+    </body>
