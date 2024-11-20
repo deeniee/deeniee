@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'NoonnuBasicGothicRegular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noon-2410@1.0/NoonnuBasicGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font1 {
+    font-family: "Gasoek One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.font2 {
+    font-family:"NoonnuBasicGothicRegular";
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+}
+.element:hover {
+    display : none
+}
