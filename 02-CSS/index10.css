@@ -1,0 +1,78 @@
+.background {
+    width: 500px;
+    height: 300px;
+    color: white;
+    /* 배경색 / 투명함(default) */
+    background-color: transparent;
+
+    /* 배경 그라데이션 / background-gradient */
+    /* 위~아래 방향 (기본) */
+    background: linear-gradient(blue, pink);
+    background: linear-gradient(to right, blue, pink);
+    background: linear-gradient(75deg, royalblue, pink);
+    background: linear-gradient(0.2turn, royalblue, pink);
+    background: linear-gradient(royalblue, 20%, pink);
+    background: linear-gradient(royalblue, pink, purple);
+    background: linear-gradient(royalblue, 20%, pink, 40%, purple);
+    /* 색상 비중을 지정할 때는 절대값으로 지정해야 함 */
+}
+
+.backgroundImage {
+    width: 600px;
+    height: 400px;
+    background-color: lightsalmon;
+
+    /* 이미지 없음 */
+    background-image: none;
+
+    /* 이미지 경로 */
+    background-image: url(./image/noopy.jpg);
+
+    /* 이미지 반복 */
+    background-repeat: repeat; /* default */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+
+    /* 배경 이미지 위치 */
+    /* 수평 : left, center. right */
+    /* 수직 : top, center, bottom */
+    /* background-position: center; */
+    /* background-position: left top; */
+    /* background-position: right bottom; */
+    /* background-position: 30px 100px; */
+        /* 수평 위치, 왼쪽에서 30px / 수직 위치, 위에서 100px */
+    /* background-position: 50px; */
+        /* 수평 위치만 변경됨, 수직 위치는 기본값 center */
+
+    /* 배경 이미지 크기 */
+    /* 첫번째는 너비, 두번째는 높이 */
+    background-size: 200px; 
+    
+    /* 이미지의 실제 크기 */
+    /* background-size: auto; */
+
+    /*
+    비율 유지 - cover, contain
+    -  cover : 요소의 더 넓은 너비에 맞춤
+    - contain : 요소의 더 짧은 너비에 맞춤
+    */
+    /* background-size: cover; */
+    /* background-size: 100% auto; */
+        /* 때에 따라 다름 (지금은 가로가 더 넓기 때문에)*/
+    /* background-size: contain; */
+    /* background-size: auto 100%; */
+        /* 때에 따라 다름 (지금은 세로가 더 짧기 때문에)*/
+
+    color: white;
+    overflow: scroll;
+    /* 배경 이미지 스크롤 특성 (default)*/
+    background-attachment: scroll;
+    /* 배경이 요소 자체를 기준으로 고정되며 콘텐츠와 함께 스크롤 되지 않음 */
+
+    background-attachment: fixed;
+    /* 배경이 뷰포트를 기준으로 고정되어 화면을 스크롤해도 움직이지 않고 콘텐츠만 스크롤됨 */
+
+    background-attachment: local;
+    /* 배경이 요소의 내용에 대해 고정되며 컨테이너의 스크롤에 맞춰 같이 움직임 */
+}
