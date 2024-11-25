@@ -1,0 +1,53 @@
+/* 실습04 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.ball {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, rgb(255, 255, 78), orangered) ;
+    position: relative;
+
+    animation: run 6s ease-in-out infinite;
+}
+
+@keyframes run {
+    from, to {
+        left: 0vw;
+        top: 0vh;
+    }
+    25% {
+        left: calc(100vw - 200px);
+        top: 0vh;
+    }
+    50% {
+        left: calc(100vw - 200px);
+        top: calc(100vh - 200px);
+    }
+    75% {
+        left: 0vw;
+        top: calc(100vh - 200px);
+    }
+}
+
+/* 실습05 */
+.text {
+    font-size: 50px;
+    position: relative;
+
+    animation: text-in 5s linear;
+}
+
+@keyframes text-in {
+    from {
+        left:100vw;
+        width: 200vw;
+    }
+    to {
+        left: 0vw;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,90 @@
+/* -----실습02----- */
+.islands {
+    width: auto;
+    height: 1080px;
+    margin: 40px;
+    background-color: rgb(220, 239, 252);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.island {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    transform: skewY(30deg);
+    top: 30%;
+}
+
+.ko1 {
+    left: 10%;
+    z-index: 3;
+}
+.ko2 {
+    left: 30%;
+    z-index: 2;
+}
+.ko3 {
+    left: 50%;
+    z-index: 1;
+}
+
+img:hover {
+    transform: skewY(0deg);
+    transition: 1s;
+    z-index: 5;
+}
+
+img:not(:hover) {
+    transform: skewY(30deg);
+    transition: 1s;
+}
+
+
+/* -----실습03----- */
+.container {
+    width: auto;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid blueviolet;
+    background-color: rgb(226, 182, 255);
+    position: relative;
+}
+
+.box:hover {
+    transition: 1s;
+}
+
+.box:not(:hover) {
+    transition: 1s;
+}
+
+.box1:hover {
+    width: 200px;
+}
+
+.box2:hover {
+    transform: translateX(50px) skewX(-45deg);
+}
+
+.box3:hover {
+    border-radius: 50%;
+    background-color: rgb(212, 38, 255);
+    transform: translateX(500px) rotate(180deg);
+}
+
+.box4:hover {
+    background-color: rgb(99, 72, 255);
+    transform: scale(1.5) rotateY(360deg);
+}
+
+
