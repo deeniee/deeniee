@@ -1,0 +1,193 @@
+body {
+    background-image: url(./image/mario/bg01.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.characters {
+    width: 910px;
+    height: 525px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.character {
+    width: 112px;
+    height: 112px;
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15% 5%;
+    transform: skewX(-20deg);
+    overflow: hidden;
+    z-index: 1;
+}
+  
+.image {
+    width: 100%;
+    height: 100%;
+    transform: skewX(20deg) scale(1.4);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.character:hover {
+    border-color: black;
+    /* background-color: rgb(205, 0, 0); */
+    background-image: radial-gradient(rgb(255, 255, 255), 80%, rgb(255, 235, 134));
+    transform: skewX(-20deg) scale(1.15);
+    transition: transform 0.5s;
+    z-index: 3;
+}
+.character:not(:hover) {
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.mc01 {
+    background-image: url(./image/mario/mc01.webp);
+    background-size: 70%;
+    background-position: 25px 15px;
+}
+.mc02 {
+    background-image: url(./image/mario/mc02.webp);
+    background-size: 85%;
+    background-position: 25px 10px;
+}
+.mc03 {
+    background-image: url(./image/mario/mc03.webp);
+    background-size: 70%;
+    background-position: 10px 15px;
+}
+.mc04 {
+    background-image: url(./image/mario/mc04.webp);
+    background-size: 90%;
+    background-position: 5px 20px;
+}
+.mc05 {
+    background-image: url(./image/mario/mc05.webp);
+    background-size: 70%;
+    background-position: 5px 20px;
+}
+.mc06 {
+    background-image: url(./image/mario/mc06.webp);
+    background-size: 70%;
+    background-position: 10px 15px;
+}
+.mc07 {
+    background-image: url(./image/mario/mc07.webp);
+    background-size: 55%;
+    background-position: 25px 15px;
+}
+.mc08 {
+    background-image: url(./image/mario/mc08.webp);
+    background-size: 45%;
+    background-position: 30px 15px;
+}
+.mc09 {
+    background-image: url(./image/mario/mc09.webp);
+    background-size: 45%;
+    background-position: 35px 15px;
+}
+.mc10 {
+    background-image: url(./image/mario/mc10.webp);
+    background-size: 50%;
+    background-position: 25px 15px;
+}
+.mc11 {
+    background-image: url(./image/mario/mc11.webp);
+    background-size: 50%;
+    background-position: 30px 10px;
+}
+.mc12 {
+    background-image: url(./image/mario/mc12.webp);
+    background-size: 45%;
+    background-position: 30px 5px;
+}
+.mc13 {
+    background-image: url(./image/mario/mc13.webp);
+    background-size: 70%;
+    background-position: 15px 15px;
+}
+.mc14 {
+    background-image: url(./image/mario/mc14.webp);
+    background-size: 50%;
+    background-position: 25px 10px;
+}
+.mc15 {
+    background-image: url(./image/mario/mc15.webp);
+    background-size: 70%;
+    background-position: 20px 20px;
+}
+.mc16 {
+    background-image: url(./image/mario/mc16.webp);
+    background-size: 70%;
+    background-position: 20px 15px;
+}
+.mc17 {
+    background-image: url(./image/mario/mc17.webp);
+    background-size: 85%;
+    background-position: 15px 10px;
+}
+.mc18 {
+    background-image: url(./image/mario/mc18.webp);
+    background-size: 70%;
+    background-position: 20px 15px;
+}
+.mc19 {
+    background-image: url(./image/mario/mc19.webp);
+    background-size: 80%;
+    background-position: 20px 20px;
+}
+.mc20 {
+    background-image: url(./image/mario/mc20.webp);
+    background-size: 80%;
+    background-position: 15px 15px;
+}
+.mc21 {
+    background-image: url(./image/mario/mc21.webp);
+    background-size: 60%;
+    background-position: 25px 20px;
+}
+.mc22 {
+    background-image: url(./image/mario/mc22.webp);
+    background-size: 60%;
+    background-position: 25px 15px;
+}
+.mc23 {
+    background-image: url(./image/mario/mc23.webp);
+    background-size: 85%;
+    background-position: 5px 15px;
+}
+.mc24 {
+    background-image: url(./image/mario/mc24.webp);
+    background-size: 85%;
+    background-position: 15px 15px;
+}
+.mc25 {
+    background-image: url(./image/mario/mc25.webp);
+    background-size: 50%;
+    background-position: 30px 20px;
+}
+.mc26 {
+    background-image: url(./image/mario/mc26.webp);
+    background-size: 60%;
+    background-position: 30px 15px;
+}
+.mc27 {
+    background-image: url(./image/mario/mc27.webp);
+    background-size: 50%;
+    background-position: 25px 25px;
+}
+.mc28 {
+    background-image: url(./image/mario/mc28.webp);
+    background-size: 60%;
+    background-position: 25px 25px;
+}
