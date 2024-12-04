@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS DOM : 요소 다루기</title>
+        <script src="04_dom.js" defer></script>
+        <style>
+            img {
+                height: 200px;
+            }
+            .main {
+                background-color: purple;
+                color: white;
+                font-size: 40px;
+                font-weight: 7000;
+                text-align: center;
+            }
+            .sub {
+                background-color: plum;
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+            }
+            .disable {
+                background-color: lightgrey;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>JS 요소 다루기</h1>
+        <div style="color: red" id="div1">
+            how do yo do<span style="display: none"> today?</span>
+        </div>
+
+        <a href="http://www.naver.com" id="naver">naver</a>
+        <img src="../02-CSS/image/mario/mc01.webp" alt="mario" id="mario" />
+
+        <ul id="friends">
+            <li>마리오</li>
+            <li id="luigi">루이지</li>
+            <li>피치</li>
+            <li>데이지</li>
+            <li>요시</li>
+        </ul>
+        <hr />
+        <div class="container"></div>
+    </body>
+</html>
