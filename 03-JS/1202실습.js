@@ -108,12 +108,25 @@ let fruits1 = [
 ];
 let fruits2 = ['수박', '사과', '참외', '오렌지', '파인애플', '망고'];
 
-let same = [];
-for (let i = 0; i < fruits1.length; i++) {
-    for (let j = 0; j < fruits2.length; j++) {
-        if (fruits1[i] == fruits2[j]) {
-            same += i;
-        }
-    }
-}
-console.log(same);
+// same 배열
+const same = fruits1.filter(function (fruit) {
+    return fruits2.includes(fruit);
+});
+console.log('same:', same);
+
+// diff 배열
+const diff = fruits1.filter(function (fruit) {
+    return !fruits2.includes(fruit);
+});
+console.log('diff:', diff);
+
+// same 배열
+
+// const same = fruits1.filter(function (fruit) {
+//     for (let i = 0; i < fruits2.length; i++) {
+//         if (fruit === fruits2[i]) {
+//             return fruit;
+//         }
+//     }
+// });
+// console.log('same:', same);

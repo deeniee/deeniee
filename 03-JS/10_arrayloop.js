@@ -36,7 +36,7 @@ const alphabets = ['a', 'b', 'c', 'd'];
 for (let alpha of alphabets) {
     console.log(`alpha >>> ${alpha}`);
 }
-// - 배열 'alphabets'의 각 요소를 반복하면서 'alpha' 변ㅇ수에 순서대로 할당하고,
+// - 배열 'alphabets'의 각 요소를 반복하면서 'alpha' 변수에 순서대로 할당하고,
 //   각각 요소에 대해 반복문 블록 살행
 // - alphabets : 배열, 문자열 등 반복 가능한 객체
 // - alpha : 반복되는 각 항목을 의미, 각 항목에 대해 한번씩 실행 (= 개발자 정의 변수

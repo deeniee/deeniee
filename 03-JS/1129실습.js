@@ -69,3 +69,11 @@ function ageClass() {
 
 const result = ageClass();
 console.log(result);
+
+console.log('------------');
+
+// 조건문 실습2 : 삼항연산자 (실습06)
+
+let now = new Date().getHours();
+
+now < 12 ? console.log('오전') : console.log('오후');
