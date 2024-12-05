@@ -25,3 +25,12 @@ switch (x) {
 console.log('--------------------');
 // 내장 객체 실습 - 2. 난수 생성
 console.log(Math.floor(Math.random() * 11));
+
+console.log('--------------------');
+
+// DOM 실습 - html 내용 변경하기
+const mint = document.getElementById('icecream');
+const taste = document.getElementById('taste');
+taste.innerHTML = '<b>맛없다...?</b>';
+taste.style.color = 'red';
+console.log(mint);
