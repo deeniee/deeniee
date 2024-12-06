@@ -127,13 +127,32 @@ container.append(p2, p3); // 여러개 추가 가능
 // x.before(y) : x 요소의 바로 이전 형제요소로 y 요소가 추가
 // x.after(y) : x 요소의 바로 다음 형제요소로 y 요소가 추가
 
-const li1 = document.createElement('li');
-li1.textContent = '쿠파';
-friends.prepend(li1);
+// const li1 = document.createElement('li');
+// li1.textContent = '쿠파';
+// friends.prepend(li1);
 
-const li0 = document.createElement('li');
-li0.innerHTML = '마리오와 친구들을 소개합니다';
-friends.prepend(li0);
+// const li0 = document.createElement('li');
+// li0.innerHTML = '마리오와 친구들을 소개합니다';
+// friends.prepend(li0);
 
-luigi.before(li1);
-luigi.after(li1);
+// luigi.before(li1);
+// luigi.after(li1);
+
+// #7. 요소 삭제
+// x.remove() : 요소 자체를 삭제
+// x.removeChild(y) : x 요소의 자식인 y를 삭제
+// 둘 다 메모리에서 즉시 삭제되지 않으니, 참조(주소, 값)를 유지하면 재활용이 가능하다
+const firstLi = document.querySelector('li');
+console.log(firstLi); // 마리오
+
+const ul = firstLi.parentNode;
+console.log('ul > ', ul);
+
+// ul.remove(); // ul태그 자체가 사라짐
+
+// 참조를 유지하면서 재활용한 방법!
+firstLi.remove(); // 마리오만 사라짐
+div1.appendChild(firstLi); // JS 특성상 메모리를 바로 삭제하지 않음.
+
+// ul.removeChild(firstLi); // 마리오 사라짐
+div1.appendChild(firstLi); // 잘라낸 마리오가 dic에 자식으로 추가됨.

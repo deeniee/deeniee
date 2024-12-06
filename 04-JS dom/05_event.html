@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS DOM : addEventListener</title>
+        <script src="05_event.js" defer></script>
+
+        <style>
+            body {
+                height: 200px;
+            }
+            .btn {
+                width: 80px;
+                height: 35px;
+                border-radius: 15px;
+                text-align: center;
+                line-height: 35px;
+                font-weight: 700;
+                margin: 10px;
+                cursor: pointer;
+            }
+
+            .btn--main {
+                background-color: rgb(255, 47, 47);
+                color: white;
+            }
+            .btn--sub {
+                background-color: rgb(255, 150, 150);
+                color: white;
+            }
+            .btn--point {
+                background-color: rgb(255, 238, 47);
+                color: rgb(255, 47, 47);
+            }
+            .btn--disable {
+                background-color: rgb(177, 177, 177);
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>JS Event</h1>
+        <div class="btn btn--main">button1</div>
+        <div class="btn btn--sub">button2</div>
+        <div class="btn btn--point">button3</div>
+        <div class="btn btn--disable">button4</div>
+        <div id="container"></div>
+
+        <button>Click me</button>
+        <input type="text" />
+
+        <h2>Todo List</h2>
+        <form action="" id="todo-form">
+            <input type="text" name="todo" />
+            <button>ADD</button>
+        </form>
+        <ul class="todos"></ul>
+
+        <hr />
+        <h2>change event</h2>
+        <input type="text" id="change-input" />
+        <div class="intro"></div>
+    </body>
+</html>

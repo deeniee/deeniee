@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>jQuery 동작함수</title>
+        <script src="./02_use.js" defer></script>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <h1>jQuery Method</h1>
+
+        <h2>val()</h2>
+        <input type="text" value="default value" />
+        <button type="button" onclick="getValue()">값 가져오기</button>
+        <button type="button" onclick="setValue()">값 설정하기</button>
+
+        <hr />
+        <h2>css</h2>
+        <span>HELLO 1</span>
+        <span>HELLO 2</span>
+        <br />
+        <button type="button" onclick="changeCssJs()">Js로 바꾸기</button>
+        <button type="button" onclick="changeCssJquery()">
+            jQuery로 바꾸기
+        </button>
+        <button type="button" onclick="getCssJquery()">
+            jQuery로 값 가져오기
+        </button>
+    </body>
+</html>
