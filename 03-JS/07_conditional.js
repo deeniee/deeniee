@@ -144,6 +144,3 @@ let now2 = new Date().getHours(); // 9
 
 console.log(now);
 console.log(now2);
-
-
-now2 == ? console.log('오전') : console.log('오후');
