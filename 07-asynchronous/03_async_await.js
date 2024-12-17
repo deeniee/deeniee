@@ -107,7 +107,7 @@ async function exec() {
     try {
         // 장점) 함수의 실행 순서가 명확히 보인다.
         goMart();
-        await pickDrink(); // 시간이 걸리는 pickDrink() 함수의 작업을 await 키워드로 인해 기다려줌.
+        await pickDrink(); // 시간이 걸리는 pickDrink() 함수의 작업을 await 키워드를 통해 기다려줌.
         pay();
     } catch (err) {
         nopay();
