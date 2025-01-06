@@ -3,6 +3,7 @@
     "prettier": "^3.4.1"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "prop-types": "^15.8.1"
   }
 }

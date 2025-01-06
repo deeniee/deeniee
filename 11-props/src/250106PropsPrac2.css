@@ -1,0 +1,22 @@
+.Book-Container {
+    width: 400px;
+    background-color: rgb(226, 219, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+img {
+    width: 240px;
+}
+.Book-ThisWeek {
+    color: red;
+}
+
+.Align-left {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

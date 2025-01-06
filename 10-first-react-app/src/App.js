@@ -62,7 +62,7 @@ function App() {
             {/* - react에서 DOM요소에 스타일 적용시 문자열 x > 객체 사용!
                 - {{스타일 명: 값;}}
                 - 스타일 이름 중 하이픈 포함시 camelCase로 작성해야함. ex.backgroundColor
-                
+
             */}
             <div style={styles}>인라인 스타일 적용</div>
             <div
@@ -104,3 +104,61 @@ function App() {
 }
 
 export default App;
+
+////// JSX 실습 1
+
+// function App() {
+//     const name = '누피';
+//     const animal = '강아지';
+//     return (
+//         <h2>
+//             제 반려 동물 이름은 <u>{name}</u>입니다.
+//             <br />
+//             <u>{name}</u>는 <u>{animal}</u>입니다.
+//         </h2>
+//     );
+// }
+
+// export default App;
+
+////// JSX 실습 2
+
+// function App() {
+//     return <h2> {3 + 5 == 8 ? '정답입니다!' : '오답입니다!'}</h2>;
+// }
+
+// export default App;
+
+////// JSX 실습 3
+
+// function App() {
+//     const a = 7;
+//     const b = 3;
+
+//     return (
+//         <div className="App">
+//             <div>{a > b && 'a가 b보다 큽니다'}</div>
+//         </div>
+//     );
+// }
+
+// export default App;
+
+////// JSX 실습 4
+
+// function App() {
+//     const title = 'Hello World!';
+
+//     return (
+//         <div className="App">
+//             <div className="App-title">{title}</div>
+//             <div>
+//                 ID : <input />
+//             </div>
+//             <div>
+//                 PW : <input />
+//             </div>
+//         </div>
+//     );
+// }
+// export default App;
