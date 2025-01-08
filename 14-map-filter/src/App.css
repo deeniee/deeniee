@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Post()의 css */
+.Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* part1 스타일 설정 */
+.Part1Style {
+    box-sizing: border-box;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgb(130, 138, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* part2 스타일 설정 */
+.Part2Style {
+    box-sizing: border-box;
+    width: 600px;
+    height: 40px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+/* table 스타일 설정 */
+.TableStyle {
+    box-sizing: border-box;
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ThStyle {
+    box-sizing: border-box;
+    width: 200px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5px;
+}
