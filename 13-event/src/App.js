@@ -17,12 +17,12 @@ function App() {
             <hr />
             <ClassComponent></ClassComponent>
             <hr /> */}
-            <HandleEx></HandleEx>
+            {/* <HandleEx></HandleEx>
             <hr />
             <TextColor></TextColor>
             <hr />
             <HideShow></HideShow>
-            <hr />
+            <hr /> */}
             <Fruit></Fruit>
         </div>
     );
