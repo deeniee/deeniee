@@ -1,5 +1,5 @@
 ## Hi there 👋
-🌱 I’m currently learning UXUI design, Web Publishing!
+🌱 I’m currently studying frontend
 
 <!--
 **deeniee/deeniee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
