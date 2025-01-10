@@ -96,7 +96,7 @@ const Fruit = () => {
                     <option value="Apple">apple</option>
                     <option value="Banana">banana</option>
                     <option value="Peach">peach</option>
-                    <option value="Grape">grape</option>x
+                    <option value="Grape">grape</option>
                 </select>
                 <label>Background: </label>
                 <select value={bgColor} onChange={handleBgColorChange}>

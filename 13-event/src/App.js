@@ -7,6 +7,8 @@ import HandleEx from './ex/HandleEx';
 import TextColor from './ex/TextColor';
 import HideShow from './ex/HideShow';
 import Fruit from './ex/Fruit';
+import FruitPrac from './ex/FruitPrac';
+import FruitPrac2 from './ex/FruitPrac2';
 
 function App() {
     return (
@@ -23,7 +25,9 @@ function App() {
             <hr />
             <HideShow></HideShow>
             <hr /> */}
-            <Fruit></Fruit>
+            {/* <Fruit></Fruit> */}
+            <FruitPrac></FruitPrac>
+            <FruitPrac2></FruitPrac2>
         </div>
     );
 }
