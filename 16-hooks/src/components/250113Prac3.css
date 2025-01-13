@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.TodoContainer {
+    font-family: 'GowunBatang-Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    background-color: #f9f8f5;
+    gap: 16px;
+}
+
+.InputArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+.InputArea button {
+    font-family: 'GowunBatang-Regular';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    width: 80px;
+    color: white;
+
+    background-color: #299cf2;
+    border: none;
+    border-radius: 2px;
+}
+.InputArea input {
+    font-family: 'GowunBatang-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    width: 240px;
+    border: 1px solid #e3dccf;
+    border-radius: 2px;
+}
+
+.TodoContainer ul {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 2px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 8px;
+}
+
+ul li:last-child {
+    border-top: 2px solid #f9f8f5;
+}
+
+ul div {
+    font-size: 16px;
+    line-height: 24px;
+    width: 240px;
+}
+
+ul button {
+    font-family: 'GowunBatang-Regular';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    width: 80px;
+    color: white;
+    background-color: #d20858;
+    border: none;
+    border-radius: 2px;
+}
