@@ -1,8 +1,5 @@
-# deeniee01
-
-## Hi there 👋
-
-🌱 I’m currently studying frontend
+## Hi
+currently studying frontend
 
 <!--
 **deeniee/deeniee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
