@@ -1,0 +1,58 @@
+$color-first: pink;
+$color-second: purple;
+$color-third: rgb(50, 9, 58);
+
+$step-one: 10vw;
+$step-two: 20vw;
+$step-three: 30vw;
+
+@mixin clockMove($step, $moveName) {
+    @keyframes #{$moveName} {
+        0% {
+            transform: translate(0, 0);
+        }
+        25% {
+            transform: translate($step, 0);
+        }
+        50% {
+            transform: translate($step, $step);
+        }
+        75% {
+            transform: translate(0, $step);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+
+    .circle {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+
+        &.first {
+            background-color: $color-first;
+            @include clockMove($step-one, 'clockMoveFirst');
+            animation: clockMoveFirst 1000ms 1000ms ease-in;
+        }
+
+        &.second {
+            background-color: $color-second;
+            @include clockMove($step-two, 'clockMoveSecond');
+            animation: clockMoveSecond 1000ms 1000ms ease-in;
+        }
+
+        &.third {
+            background-color: $color-third;
+            @include clockMove($step-three, 'clockMoveThird');
+            animation: clockMoveThird 1000ms 1000ms ease-in;
+        }
+    }
+}

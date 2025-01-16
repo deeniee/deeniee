@@ -10,6 +10,8 @@ import UseReducerEx from './components/UseReducerEx';
 import { ThemeProvider } from './components/ThemeProvider';
 import { ThemeMiddle } from './components/ThemeMiddle';
 import Faq from './components/Faq';
+import Form from './components/react-hook-form/Form';
+import FormPrac from './components/react-hook-form/250115Prac';
 
 function App() {
     return (
@@ -27,7 +29,10 @@ function App() {
             </ThemeProvider> */}
             {/* <Faq></Faq> // 이거 질문하기 토글해도 제목이 바뀌지 않음*/}
             {/* <hr /> */}
-            <TodoApp></TodoApp>
+            {/* <TodoApp></TodoApp> */}
+            {/* <hr /> */}
+            {/* <Form></Form> */}
+            <FormPrac></FormPrac>
         </div>
     );
 }
