@@ -27,12 +27,12 @@ function App() {
             {/* <ThemeProvider>
                 <ThemeMiddle />
             </ThemeProvider> */}
-            {/* <Faq></Faq> // 이거 질문하기 토글해도 제목이 바뀌지 않음*/}
+            {/* <Faq></Faq> */}
             {/* <hr /> */}
-            {/* <TodoApp></TodoApp> */}
+            <TodoApp></TodoApp>
             {/* <hr /> */}
             {/* <Form></Form> */}
-            <FormPrac></FormPrac>
+            {/* <FormPrac></FormPrac> */}
         </div>
     );
 }

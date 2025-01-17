@@ -3,8 +3,14 @@
     "prettier": "^3.4.1"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
     "bootstrap-icons": "^1.11.3",
     "prop-types": "^15.8.1",
-    "react-hook-form": "^7.54.2"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
+    "web-vitals": "^4.2.4"
   }
 }
