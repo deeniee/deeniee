@@ -2,7 +2,7 @@
 
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from './counterSlice';
-import isVisiblerReducer, { change } from './isVisibleSlice';
+import isVisibleReducer from './isVisibleSlice';
 
 // # configureStore
 // - store 생성
@@ -11,7 +11,7 @@ import isVisiblerReducer, { change } from './isVisibleSlice';
 const store = configureStore({
     reducer: {
         counter: counterReducer, // "counter라는" 상태를 counterReducer로 관리 // 변수명은 마음대로 작성 가능
-        change: isVisiblerReducer,
+        change: isVisibleReducer,
     },
 });
 

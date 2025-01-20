@@ -7,6 +7,7 @@ const isVisibleSlice = createSlice({
         changeVisibility: (state) => {
             return !state;
         },
+        // changeVisibility: (state) => !state, // immer 라이브러리를 활용, 간단하게 작성
     },
 });
 

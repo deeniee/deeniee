@@ -15,7 +15,7 @@ const counterSlice = createSlice({
     initialState: { count: 100 },
     reducers: {
         plus: (state) => {
-            state.count += 1; // 직접 상태값 변경 (Redux toolkit immer 라이브러리가 내부적으로 )
+            state.count += 1; // 직접 상태값 변경 (Redux toolkit immer 라이브러리가 내부적으로 사용됨)
         },
         minus: (state) => {
             state.count -= 1;
